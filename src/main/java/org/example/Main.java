@@ -29,11 +29,11 @@ public class Main {
         int totalDoble = precioDoble * cantidadDoble;
         int totalEspecial = precioEspecial * cantidadEspecial;
 
-        // Calcular total general
+        // Calcular el total general
         int totalGeneral = totalSimple + totalDoble + totalEspecial;
 
-        // Mostrar resultados
-        System.out.println("\n🧾 RESUMEN DE VENTAS - HELADOS FROZEN");
+        //  resultados
+        System.out.println("\n RESUMEN DE VENTAS - HELADOS FROZEN");
 
         System.out.println("------------------------------------------");
 
@@ -44,7 +44,7 @@ public class Main {
         System.out.println("Helado Especial ($20,000) x " + cantidadEspecial + " = $" + totalEspecial);
 
         System.out.println("------------------------------------------");
-        
+
         System.out.println("TOTAL GENERAL DEL DÍA: $" + totalGeneral);
 
 
